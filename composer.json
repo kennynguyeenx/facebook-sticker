@@ -1,0 +1,25 @@
+{
+    "name": "kennynguyeenx/facebook-sticker",
+    "type": "library",
+    "version": "1.0",
+    "description": "Create animated Facebook stickers.",
+    "keywords": ["facebook", "sticker"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kenny Nguyen",
+            "email": "kennynguyeenx@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-imagick": "*",
+        "ext-gd": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8|~5.2"
+    },
+    "autoload": {
+        "psr-4": {"Kennynguyeenx\\": "src"}
+    }
+}
