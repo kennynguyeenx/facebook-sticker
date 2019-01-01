@@ -2,12 +2,6 @@
 <?php
 use Kennynguyeenx\FacebookSticker\FacebookSticker;
 
-defined('DOCROOT') || define('DOCROOT', realpath(dirname(__DIR__)) . DIRECTORY_SEPARATOR);
-
-date_default_timezone_set('Asia/Ho_Chi_Minh');
-
-setlocale(LC_ALL, 'en_US.utf-8');
-
 require __DIR__ . '/../vendor/autoload.php';
 
 if (!isset($argv[5]) || !is_numeric($argv[5])) {

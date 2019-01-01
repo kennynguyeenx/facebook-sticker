@@ -35,6 +35,7 @@ Usage
 use Kennynguyeenx\FacebookSticker\FacebookSticker;
 
 try {
+    $facebookSticker = new FacebookSticker();
     $facebookSticker->createAnimatedSticker(
         $sourceImagePath,
         $destinationImagePath,
